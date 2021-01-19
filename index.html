@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link >
+  <link  rel="stylesheet" href="CSS/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,24 +17,44 @@
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <h1 class="lightgrey200">Reliable, efficient delivery
+    <span class="darkgrey600">Powered by Technology</span></h1>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <h3>Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</h3>
+    <div class="container">
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      <div class="box" id="green">
+        <h2>Supervisor</h2>
+        <h4>Monitors activity to identify project roadblocks</h4>
+        <img src="images/icon-supervisor.svg" alt="supervisor image">
+    
+      </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+      <div class="box" id="red">
+        <h2>Team Builder</h2>
+        <h4>Scans our talent network to create the optimal team for your project</h4>
+        <img src="images/icon-team-builder.svg" alt="teambuilder image">
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+    
+      </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      <div class="box" id="yellow">
+        <h2> Karma</h2>
+        <h4>Regularly evaluates our talent to ensure quality</h4>
+        <img src="images/icon-karma.svg" alt="karma image">
+    
+      </div>
 
+      <div class="box" id="blue">
+        <h2>Calculator</h2>
+        <h4>Uses data from past projects to provide better delivery estimates</h4>
+        <img src="images/icon-calculator.svg" alt="calc image">
+    
+      </div>
+
+
+    </div>
   
   <footer>
     <p class="attribution">
